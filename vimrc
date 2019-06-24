@@ -59,6 +59,7 @@ set expandtab
 set number
 set laststatus=2
 set numberwidth=4
+set backspace=indent,eol,start
 
 " Force proper colors (Disable Background Color Erase).
 set t_ut=
