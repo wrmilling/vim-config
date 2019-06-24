@@ -1,2 +1,5 @@
-.netrwhist
-bundle/
+*
+!.gitignore
+!README.md
+!vimrc
+!install.sh
