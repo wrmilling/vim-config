@@ -15,6 +15,8 @@ Plugin 'reedes/vim-colors-pencil'
 Plugin 'junegunn/goyo.vim'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 " Language Plugins
 Plugin 'fatih/vim-go'
