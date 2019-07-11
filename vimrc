@@ -62,6 +62,7 @@ set number
 set laststatus=2
 set numberwidth=4
 set backspace=indent,eol,start
+set nofoldenable " Disable folding in the editor, may re-enable later
 
 " Force proper colors (Disable Background Color Erase).
 set t_ut=
