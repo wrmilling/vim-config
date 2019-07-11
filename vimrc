@@ -64,5 +64,8 @@ set numberwidth=4
 set backspace=indent,eol,start
 set nofoldenable " Disable folding in the editor, may re-enable later
 
+" Enable spell checking by file type
+autocmd BufRead,BufNewFile *.md setlocal spell spelllang=en_us
+
 " Force proper colors (Disable Background Color Erase).
 set t_ut=
