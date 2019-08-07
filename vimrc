@@ -21,8 +21,11 @@ Plugin 'plasticboy/vim-markdown'
 " Language Plugins
 Plugin 'fatih/vim-go'
 
-" Fuzzy Search / File Finding
-Plugin 'junegunn/fzf.vim'
+" Searching
+Plugin 'mileszs/ack.vim'
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 " Navigation
 Plugin 'scrooloose/nerdtree'
