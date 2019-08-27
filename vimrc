@@ -32,6 +32,7 @@ Plugin 'scrooloose/nerdtree'
 
 " Tool Integration
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
